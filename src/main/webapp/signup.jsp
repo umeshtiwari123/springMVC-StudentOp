@@ -5,11 +5,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Login Page</title>
+<title>Sign Page</title>
 </head>
 <body>
 
-<form:form action="signupStudent" modelAttribute="signupStudent">
+<form:form action="signupstud" modelAttribute="signupStudent">
 
 <form:label path="name">Name: </form:label>
 <form:input path="name"/><br><br>
@@ -25,6 +25,8 @@
 
 <form:label path="password">Password: </form:label>
 <form:input path="password"/><br><br>
+
+<input type="submit" value="signup">
 
 </form:form>
 

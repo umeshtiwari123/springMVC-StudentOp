@@ -6,24 +6,17 @@
 <head>
 <meta charset="UTF-8">
 <title>Login Page</title>
+
 </head>
 <body>
 
-<form:form action="loginStud" modelAttribute="loginStudent">
+<form:form action="signupStudent" modelAttribute="loginStudent">
 
 
-
-<form:label path="email">Email: </form:label>
-<form:input path="email"/><br><br>
+<h3>Welcome to Login Page</h3>
 
 
-<form:label path="password">Password: </form:label>
-<form:input path="password"/><br><br>
-
-<input type="submit" value="login">
-
-
-
+<input type="submit" value="loginredirect">
 
 
 </form:form>
